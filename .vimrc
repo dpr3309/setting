@@ -13,6 +13,10 @@ set numberwidth=4
 set relativenumber
 set autoindent
 set smartindent
+"write spaces
+set list
+set lcs+=space:.
+"set nolist - turn off write spaces
 
 augroup project
     autocmd!
